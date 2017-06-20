@@ -83,6 +83,11 @@ img{
     background: url(../img/bg2.jpg) no-repeat;
     background-size: 100% 100%;
 }
+.n2 .swiper-slide{
+
+    background: transparent;
+
+}
 
 .n3{
     background: url(../img/bg3.jpg) no-repeat;
