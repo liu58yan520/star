@@ -1,0 +1,128 @@
+*,html,body,p,img{
+	margin: 0; padding: 0;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body{
+	color: #fafafa;
+	background: #020518;
+    font-family:"Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+}
+
+.red{
+	color: red;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+}
+img{
+    display: block;
+}
+.n1{
+	background:  url(../img/bg.jpg) no-repeat ;
+	background-size: 100% 100%;
+}
+.n1 .img0{
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+.n1 .img1{
+    width: 88%;
+    position: absolute;
+    top: 33.5%;
+    left: 0;
+}
+.n1 .img2{
+    position: absolute;
+    right: 2%;
+    top: 37%;
+    height: 20%;
+}
+.n1 .img3{
+    width: 100%;
+    position: absolute;
+    top: 57%;
+    left: 0;
+}
+.n1 .img4{
+    position: absolute;
+    width: 68%;
+    top: 67%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.n2{
+    background: url(../img/bg2.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.n3{
+    background: url(../img/bg3.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.n3 img{
+    width: 100%;
+    display: block;
+    position: absolute;
+
+}
+.n3 img:nth-child(1){
+    top: 34%;
+    left: 0;
+}
+.n3 img:nth-child(2){
+    top: 50%;
+    left: -5%;
+}
+.n3 img:nth-child(3){
+    top: 72%;
+    right: 0;
+}
+
+
+
+#music{
+    position: absolute;
+    right: 3%;
+    top: 2%;
+    background: url(../img/music.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 999;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 4px solid rgba(7,18,48,0.5);
+    animation:music 2s linear infinite; 
+}
+@keyframes music{
+    from{ transform:rotate(0);}
+    to{   transform:rotate(360deg); }
+}

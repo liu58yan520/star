@@ -1,0 +1,57 @@
+
+
+form {
+	width: 80%;
+	margin: 40% auto 0;
+}
+label{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+label span{
+	display: inline-block;
+	text-align: center;
+	font-size: 1.1rem;
+}
+label input,label select{
+	background: #ccc;
+	border: none;
+	box-sizing: border-box;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	padding: 5px 8px;
+	border-radius: 3px;
+	outline: none;
+	font-size: .8rem;
+	width: 50%;
+	margin: 8px 0 8px 50px;
+}
+form button{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 10px;
+	border: none;
+	background: #31CF53;
+	color: #101010;
+	display: block;
+	margin: 15px auto;
+}
+.n3 .tishi{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(0,0,0,0.4);
+    font-size: 13px;
+    color:#f60;
+    text-align: center;
+    display: none;
+}
+/*form input:required {
+background-color:lightyellow;
+}
+
+form input:required:invalid {
+background-color:#fff;
+}*/
