@@ -19,12 +19,14 @@ $.ajax({
 		}); 
 	}, 
 });
+
+
 wx.ready(function (){ 
 var shareData = { 
-	title: '标题', 
-	desc: '简介',
+	title: '星耀中国 梦想启航', 
+	desc: '2017 “星耀中国”少儿明星艺术大赛 镇江赛区火热招募中，助才艺宝贝荣登江苏综艺“超级小达人” ',
 	link: 'http://vote.didifc.com/web/star/index.html', 
-	imgUrl: 'http://vote.didifc.com/web/star/img/share.png'
+	imgUrl: 'http://vote.didifc.com/web/star/img/share.jpg'
 }; 
 	wx.onMenuShareAppMessage(shareData); 
 	wx.onMenuShareTimeline(shareData); 
